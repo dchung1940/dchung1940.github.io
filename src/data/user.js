@@ -67,7 +67,7 @@ const INFO = {
 			title: "Patent1",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "./USPTO.png",
+			logo: "./uspto.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
@@ -75,7 +75,7 @@ const INFO = {
 			title: "Patent2",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "./USPTO.png",
+			logo: "./uspto.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		}
