@@ -1,30 +1,23 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Reactfolio by Daniel Chung",
+		name: "Daniel Chung",
+		email: "danielchung1940@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/dchung1940",
+		linkedin: "https://www.linkedin.com/in/daniel-chung-180910158",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		facebook: "https://facebook.com/"
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "HI, I'M DANIEL CHUNG",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
-	},
-
-	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I am a backend developer with expertise in Python and C++. I also have some expertise in frontend (e.g., React, Javascript, etc.) and working with data using data programming languages (e.g., R and SQL). Some of the projects using these languages can be seen on this site and in my Github. Additionally, I love experimenting in different fields, with the most recent field I dove being a legal field (IP Law). Some of the patents I helped draft are attached to this site. I enjoy solving complex problems and learning new skills. I am always looking for new challenges and opportunities to grow.",
 	},
 
 	articles: {
@@ -35,49 +28,57 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "NBA Bracket",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"A project built for NBA fans who want to create their own NBA playoff bracket prediction and easily share with other people.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/dchung1940/NBA_Bracket_2023",
 		},
 
 		{
-			title: "Project 2",
+			title: "Prospectus",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"A project built to help students from any univeristy to plan their courses. The project comes with interactive pre/post requisite graph, recommendations, wishlist, etc.",
+			logo: "/sql.png",
+			linkText: "View Project",
+			link: "https://github.com/dchung1940/Prospectus",
+		},
+
+		{
+			title: "COVID-19 Application",
+			description:
+			"A project built to help student in University of Illinois Urbana-Champaign by giving them supplementary information to help them guide through the pandemic.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/r/r.png",
+			linkText: "View Project",
+			link: "https://github.com/dchung1940/covid19_app",
+		},
+
+		{
+			title: "Data Analysis using PPDAC cycle",
+			description:
+				"Short Data Analysis using PPDAC (problem, plan, data, analsis, conclusion) cycle. The analysis are done on Champain county theather data, Chicago Food Vendor Data, and Covid-19 data.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/r/r.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 3",
+			title: "Patent1",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo: "./USPTO.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
-
 		{
-			title: "Project 4",
+			title: "Patent2",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "./USPTO.png",
 			linkText: "View Project",
 			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+		}
 	],
 };
 

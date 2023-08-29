@@ -1,33 +1,27 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 import "./style/article.css";
 
 const Article = (props) => {
-	const { date, title, description, link } = props;
+	const { date, title, position,description,image } = props;
+	console.log(description)
 
 	return (
 		<React.Fragment>
 			<div className="article">
 				<div className="article-left-side">
-					<div className="article-date">{date}</div>
-				</div>
-
-				<Link to={link}>
-					<div className="article-right-side">
-						<div className="article-title">{title}</div>
-						<div className="article-description">{description}</div>
-						<div className="article-link">
-							Read Article{" "}
-							<FontAwesomeIcon
-								style={{ fontSize: "10px" }}
-								icon={faChevronRight}
-							/>
-						</div>
+					<div className="article-image">
+					<img src = {image} alt = "img"></img>
 					</div>
-				</Link>
+					<div className="article-date">{date}</div>
+
+				</div>
+				<div className="article-right-side">
+					<div className="article-title">{title}</div>
+					<div className="article-position">{position}</div>
+					<div className="article-description">{
+					description.map((des,index)=>(<div className= "article-sentence" key = {index}>{des}</div>))}</div>
+				</div>
 			</div>
 		</React.Fragment>
 	);

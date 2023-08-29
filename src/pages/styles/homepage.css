@@ -3,15 +3,25 @@
 .homepage-logo-container {
 	display: flex;
 	justify-content: left;
-	align-items: center;
-	padding-top: 130px;
+	padding-top: 30px;
+}
+
+.homepage-logo {
+	display: flex;
+	position: fixed;
+	border: 1px solid white;
+	border-radius: 50%;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	top: 4vh;
+	z-index:10;
 }
 
 .homepage-container {
-	padding-top: 25px;
+	padding-top: 20px;
 }
 
 .homepage-first-area {
+	padding-top: 80px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -25,10 +35,12 @@
 
 .homepage-title {
 	width: 85% !important;
+	/* text-align:center; */
 }
 
 .homepage-subtitle {
 	width: 85% !important;
+	/* text-align:center; */
 }
 
 .homepage-first-area-right-side {
@@ -37,8 +49,8 @@
 }
 
 .homepage-image-container {
-	width: 370px;
-	height: 370px;
+	width: 320px;
+	height: 360px;
 }
 
 .homepage-image-wrapper {
@@ -48,25 +60,8 @@
 }
 
 .homepage-image-wrapper img {
-	width: 100%;
-}
-
-.homepage-socials {
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	padding-top: 30px;
-}
-
-.homepage-social-icon {
-	padding-right: 20px;
-	font-size: 25px;
-	transition: color 0.2s ease-in-out;
-	color: var(--secondary-color);
-}
-
-.homepage-social-icon:hover {
-	color: var(--primary-color);
+	width: 320px;
+	height:360px;
 }
 
 .homepage-after-title {
@@ -76,6 +71,10 @@
 .homepage-projects {
 	flex-basis: 300px;
 	padding-top: 40px;
+}
+
+.homepage-homeSocials{
+	margin-top:20px;
 }
 
 .homepage-articles {
@@ -101,25 +100,34 @@
 	.homepage-first-area-left-side {
 		display: flex;
 		flex-direction: column; /* Changed: set direction to column */
-		align-items: flex-start;
+		align-items: center;
 		width: 100%;
 		order: 2;
+		margin-top:20px;
 	}
 
 	.homepage-title {
 		width: 100% !important;
 		margin-top: 20px;
 		order: 2;
+			text-align:center;
+
 	}
 
 	.homepage-subtitle {
 		width: 100% !important;
 		margin-top: 10px;
 		order: 3;
+		text-align:center;
+
+	}
+	.homepage-homeSocials{
+		order:4;
 	}
 
 	.homepage-first-area-right-side {
 		width: 100%;
+		justify-content: center;
 		order: 1;
 	}
 
