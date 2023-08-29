@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4";
 
-import Homepage from "./pages/homepage";
+import Homepage from "./pages/home";
 import Articles from "./pages/articles";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
