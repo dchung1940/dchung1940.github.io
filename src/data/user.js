@@ -1,6 +1,6 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by Daniel Chung",
+		title: "Daniel Chung",
 		name: "Daniel Chung",
 		email: "danielchung1940@gmail.com",
 		logo: "../logo.png",
@@ -17,7 +17,7 @@ const INFO = {
 	homepage: {
 		title: "HI, I'M DANIEL CHUNG",
 		description:
-			"I am a backend developer with expertise in Python and C++. I also have some expertise in frontend (e.g., React, Javascript, etc.) and working with data using data programming languages (e.g., R and SQL). Some of the projects using these languages can be seen on this site and in my Github. Additionally, I love experimenting in different fields, with the most recent field I dove being a legal field (IP Law). Some of the patents I helped draft are attached to this site. I enjoy solving complex problems and learning new skills. I am always looking for new challenges and opportunities to grow.",
+			"I am a backend developer with expertise in NodeJS, Python, and C++. I also have expertise in frontend (e.g., React, Javascript, etc.) and working with data using data programming languages (e.g., R and SQL). Some of the projects using these languages can be seen on this site and in my Github. Additionally, I love experimenting in different fields, with the most recent field I dove being a legal field (IP Law). Some of the patents I helped draft are attached to this site. I enjoy solving complex problems and learning new skills. I am always looking for new challenges and opportunities to grow.",
 	},
 
 	articles: {
@@ -60,24 +60,24 @@ const INFO = {
 				"Short Data Analysis using PPDAC (problem, plan, data, analsis, conclusion) cycle. The analysis are done on Champain county theather data, Chicago Food Vendor Data, and Covid-19 data.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/r/r.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/dchung1940/data_analysis",
 		},
 
 		{
-			title: "Patent1",
+			title: "Fast Oblivious Transfers (US11601407B2)",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Patent filed for a new way of performing an oblivious transfer using Public Key Encryption and Diffie-Hellman Encryption",
 			logo: "./uspto.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://patentimages.storage.googleapis.com/bd/b4/62/9960560521fa1c/US11601407.pdf",
 		},
 		{
-			title: "Patent2",
+			title: "User Verification with Digital Tag (WO2022251337A1)",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Patent filed for a new way of using a digital tag for payment transactions for users using different payment applications",
 			logo: "./uspto.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://patentimages.storage.googleapis.com/37/85/84/637ab14c592e21/WO2022251337A1.pdf",
 		}
 	],
 };
