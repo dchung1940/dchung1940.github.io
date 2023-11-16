@@ -5,10 +5,9 @@ const myArticles = [
 		position:"Patent Engineer",
 		image:"./kilpatricktownsend.jpg",
 		description:
-			["- Facilitated over 50+ meetings with clients to develop inventive concepts to enhance patentability of the inventions and provide recommendations for filing different types of applications including provisional, non-provisional, etc.",
-			"- Drafted over 50+ different patent applications based on the inventive concepts drawn with the inventors on different engineering concepts that include detailed explanations of the inventions, scope of legal protections (claims), etc.",
-			"- Composed over 10+ instructional letters and recommendations to foreign law associates providing descriptions on which parts of the claims to amend and reasons behind the amendments in response to foreign office actions",
-			"- Conducted interviews with patent examiners to amend claims and clarify concepts of the inventions in response to any questions raised by the examiner in the office action, resulting in granting of the patent applications"
+			["- Drafted over 50+ patent applications based on new software inventions including Cryptographic Oblivious Transfer, Natural Language Processing using Machine Learning, Searchable Symmetric Encryption, Authentication Tokens, Secret-Shared Database Joins, Smart Contracts on Blockchain, Covariance Reduction Models, etc.",
+			"- Facilitated over 50+ meetings with clients (e.g., VISA, Doordash, Apple) to strategize scopes of legal protections (claims) over their inventions and recommend different types of patent applications to file for their inventions",
+			"- Composed over 10+ instructional letters and recommendations to foreign lawyers on patent applications, wherein each letter consists of strategies unique to each foreign country’s rules and regulations in prosecuting the patents"
 		]
 	},
 	{
@@ -28,9 +27,9 @@ const myArticles = [
 		position:"Software and Electrical Engineering Intern",
 		image:"./Raytheon.png",
 		description:
-			["- Analyzed the newly redesigned amplifier circuits for Evolved SeaSparrow Missile (ESSM) to identify any schematic mistakes in the design and created general block diagrams for different technical design reviews",
-			"- Programmed component models not inscribed in the circuit software with inputs given in the datasheet to enhance the simulation speed of circuits that utilize such parts, resulting in more than 15% increase in compilation speed",
-			"- Developed over 10+ reuse design blocks that would reduce the cycle time of building new circuits, prevent the duplication of work from multiple engineers, and accelerate the simulation time of different circuit software"]
+			["- Registered 10+ new circuit component models in C++ that are not inscribed in the circuit software with inputs (e.g., max/min voltage) given in the component datasheets, resulting in more than 15% increase in simulation speed",
+			"- Developed over 10+ reuse design blocks in C++ that are commonly used in circuit schematic design, leading to reduction in the cycle time of building new circuits and preventing the duplication of work from electrical engineers",
+			"- Analyzed the newly redesigned amplifier circuits for Evolved SeaSparrow Missile (ESSM) to identify any schematic mistakes in the design and created general block diagrams for different technical design reviews"]
 		
 	},
 	{
