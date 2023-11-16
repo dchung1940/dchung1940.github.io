@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import AllProjects from "../components/projects/allProjects";
@@ -38,7 +39,25 @@ const Homepage = () => {
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description}
 								</div>
+
 								<div className="homepage-homeSocials">
+									<div className="homepage-resume">
+										<a
+											href={"/Resume.pdf"}
+											target="_blank"
+											rel="noreferrer"
+										>
+											<div className="homepage-resume-display">
+												<FontAwesomeIcon
+													icon={faFile}
+													className="homepage-resume-icon"
+												/>
+												<div className="homepage-resume-text">
+													Resume
+												</div>
+											</div>
+										</a>
+									</div>
 									<HomeSocials />
 								</div>
 							</div>
