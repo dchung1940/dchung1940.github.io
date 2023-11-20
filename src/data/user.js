@@ -2,7 +2,7 @@ const INFO = {
 	main: {
 		title: "Daniel Chung",
 		name: "Daniel Chung",
-		email: "danielchung1940@gmail.com",
+		email: "jydanielchung@gmail.com",
 		logo: "../logo.png",
 	},
 
