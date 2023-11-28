@@ -5,9 +5,10 @@ const myArticles = [
 		position:"Patent Engineer",
 		image:"./kilpatricktownsend.jpg",
 		description:
-			["- Drafted over 50+ patent applications based on leading software inventions including Cryptographic Oblivious Transfer, Natural Language Processing using Machine Learning, Searchable Symmetric Encryption, Authentication Tokens, Secret-Shared Database Joins, Smart Contracts on Blockchain, Covariance Reduction Models, etc.",
-			"- Facilitated over 50+ meetings with clients (e.g., VISA, Doordash, Apple) to strategize scopes of legal protections (claims) over their inventions and recommend different types of patent applications to file for the inventions",
-			"- Composed over 10+ instructional letters and recommendations to foreign lawyers on patent applications, wherein each letter consists of strategies unique to each foreign country’s rules and regulations in prosecuting the patents"
+			["- Facilitated over 50+ meetings with clients to develop inventive concepts to enhance patentability of the inventions and provide recommendations for filing different types of applications including provisional, non-provisional, etc.",
+			"- Drafted over 50+ different patent applications based on the inventive concepts drawn with the inventors on different engineering concepts that include detailed explanations of the inventions, scope of legal protections (claims), etc.",
+			"- Composed over 10+ instructional letters and recommendations to foreign law associates providing descriptions on which parts of the claims to amend and reasons behind the amendments in response to foreign office actions",
+			"- Conducted interviews with patent examiners to amend claims and clarify concepts of the inventions in response to any questions raised by the examiner in the office action, resulting in granting of the patent applications"
 		]
 	},
 	{
