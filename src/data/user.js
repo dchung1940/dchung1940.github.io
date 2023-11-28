@@ -17,7 +17,7 @@ const INFO = {
 	homepage: {
 		title: "HI, I'M DANIEL CHUNG",
 		description:
-			"I am a patent engineer and a software engineer. I have expertise in patent prosecution including drafting patent applications (e.g., provisional, non-provisional, continuation, divisional, etc.), conducting interviews with patent examiners, and many others. Some of the patents I helped draft are attached to this site. Additionally, I have expertise in frontend (e.g., React, Javascript, etc.), backend (e.g., NodeJS, Python, C++, etc.), and working with data using data programming languages (e.g., R and SQL). Some of the projects using these languages can be seen on this site and in my Github. I enjoy solving complex problems and learning new skills. I am always looking for new challenges and opportunities to grow.",
+			"I am a patent engineer and a software engineer. I have an expertise in patent prosecution including drafting patent applications (e.g., provisional, non-provisional, continuation, divisional, etc.), conducting interviews with patent examiners, and many others. Some of the patents I helped draft are attached to this site. Additionally, I have expertise in frontend (e.g., React, Javascript, etc.), backend (e.g., NodeJS, Python, C++, etc.), and working with data using data programming languages (e.g., R and SQL). Some of the projects using these languages can be seen on this site and in my Github. I enjoy solving complex problems and learning new skills. I am always looking for new challenges and opportunities to grow.",
 	},
 
 	articles: {
