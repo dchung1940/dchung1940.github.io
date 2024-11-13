@@ -12,7 +12,7 @@ const Footer = () => {
 				</div>
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© Daniel Chung 2023 
+						© Daniel Chung 2024 
 					</div>
 				</div>
 			</div>
