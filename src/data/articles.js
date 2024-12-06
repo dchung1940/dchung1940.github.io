@@ -29,7 +29,7 @@ const myArticles = [
 		image:"./Fernandez.png",
 		description:
 			["- Conducted patentability searches for various inventions under the guidance of the firm’s patent attorney, analyzing relevant publications to determine whether the inventions were novel for patent protection",
-			"- Filed 3+ continuation and divisional applications by drafting new claims that cover different scopes of the invention - resulting in successful granting of the 3+ applications by the USPTO"
+			"- Filed 3+ continuation and divisional applications by drafting new claims that cover different scopes of the invention, resulting in the successful granting of 2+ applications by the USPTO"
 		]
 	},
 
@@ -50,7 +50,7 @@ const myArticles = [
 		position:"Resident Advisor",
 		image:"./illinois.jpeg",
 		description:
-			["- Developed a safe and inclusive dorm environment conducive to student learning and academic success by providing counseling, career advice, emotional support, and other resources to over 150+ residents",
+			["- Developed a safe and inclusive dorm environment conducive to student learning and academic success by providing counseling, career advice, emotional support, and other resources to 150+ residents",
 			"- Administered the recruitment of new housing staff with the Resident Director by conducting a series of behavior interviews including assessments of communication skills, conflict management skills, etc.",
 			"- Collaborated with other resident advisors to foster an inclusive community through coordinating joint programs that promoted social justice, diversity, and community engagements for residents"
 		]
