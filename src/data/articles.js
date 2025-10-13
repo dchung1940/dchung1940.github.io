@@ -5,10 +5,11 @@ const myArticles = [
 		position:"Technical Specialist",
 		image:"./Marshall.png",
 		description:
-			["- Perform detailed patentability searches to assess whether inventions are eligible for patent protection by analyzing relevant prior art, including patents and publications disclosing similar technologies",
-			"- Drafted 10+ patent applications of different inventions in various domains including Cryptography, Generative Artificial Intelligence, Databases, Blockchain, Large Language Models, and Medical Devices",
+			[
+			"- Drafted over 20+ patent applications of different inventions in various domains including Cryptography, Generative Artificial Intelligence, Virtual Reality, Blockchain, Databases, and Autonomous Vehicles",
 			"- Conducted 10+ interviews with patent examiners to discuss rejections raised in the Office Actions, assess the legal and technical arguments, and evaluate different strategies for overcoming those rejections",
-			"- Filed responses to 20+ Non-Final and Final Office Actions addressing rejections under 35 U.S.C. 101, 102, 103, and 112 received from the USPTO, resulting in the allowance of 10+ applications"
+			"- Filed responses to 20+ Non-Final and Final Office Actions addressing rejections under 35 U.S.C. 101, 102, 103, and 112 received from the USPTO, resulting in the allowance of 10+ applications",
+			"- Performed detailed patentability searches to assess whether inventions are eligible for patent protection by analyzing relevant prior art, including patents and publications disclosing similar technologies"
 		]
 	},
 	{
@@ -39,9 +40,10 @@ const myArticles = [
 		position:"Software and Electrical Engineering Intern",
 		image:"./Raytheon.png",
 		description:
-			["- Registered 10+ new circuit component models that were not inscribed in the circuit software using inputs given in the component datasheets, resulting in a more than 15% increase in simulation speed",
-			"- Developed 10+ reuse design blocks commonly used in circuit schematic design, leading to a reduction in cycle time for building new circuits in the circuit software and preventing duplication of work",
-			"- Analyzed the newly redesigned amplifier circuits for Evolved SeaSparrow Missile (ESSM) to identify schematic errors in the design and created general block diagrams for technical design reviews"]
+			[
+			"- Registered 10+ new circuit component models in C++ in the circuit software with inputs (e.g., max/min voltage) given in the component datasheets, resulting in 15% increase in simulation speed",
+			"- Developed over 10+ reuse design blocks in C++ that are commonly used in circuit schematic design, leading to reduction in the cycle time of building new circuits and prevent duplication of work",
+			"- Analyzed the newly redesigned amplifier circuits for Evolved SeaSparrow Missile (ESSM) to identify schematic mistakes in the design and created general block diagrams for technical design reviews"]
 		
 	},
 	{

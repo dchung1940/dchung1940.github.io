@@ -2,7 +2,7 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a backend developer with expertise in Python and C++.",
+			"I am a 1L student, Patent Agent, and a Software Engineer hungry for new challenges!",
 		keywords: ["Daniel", "Daniel C", "Daniel Chung"],
 	},
 

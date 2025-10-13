@@ -2,7 +2,7 @@ const INFO = {
 	main: {
 		title: "Daniel Chung",
 		name: "Daniel Chung",
-		email: "danielchung1940@gmail.com",
+		email: "jydchung1998@gmail.com",
 		logo: "../logo.png",
 	},
 
@@ -17,7 +17,7 @@ const INFO = {
 	homepage: {
 		title: "HI, I'M DANIEL CHUNG",
 		description:
-			"I am a patent engineer and a software engineer. I have an expertise in patent prosecution including drafting patent applications (e.g., provisional, non-provisional, continuation, divisional, etc.), conducting interviews with patent examiners, and many others. Some of the patents I helped draft are attached to this site. Additionally, I have expertise in frontend (e.g., React, Javascript, etc.), backend (e.g., NodeJS, Python, C++, etc.), and working with data using data programming languages (e.g., R and SQL). Some of the projects using these languages can be seen on this site and in my Github. I enjoy solving complex problems and learning new skills. I am always looking for new challenges and opportunities to grow.",
+			"I am a 1L student at Emory University School of Law, a Patent Engineer, and a Software Engineer. I have an expertise in patent prosecution including drafting patent applications (e.g., provisional, non-provisional, continuation, divisional, etc.), conducting interviews with patent examiners, and many others. Some of the patents I helped draft are attached to this site. Additionally, I have expertise in frontend (e.g., React, Javascript, etc.), backend (e.g., NodeJS, Python, C++, etc.), and working with data using data programming languages (e.g., R and SQL). Some of the projects using these languages can be seen on this site and in my Github. I enjoy solving complex problems and learning new skills. I am always looking for new challenges and opportunities to grow.",
 	},
 
 	articles: {
@@ -28,15 +28,6 @@ const INFO = {
 
 	projects: [
 		{
-			title: "NBA Bracket",
-			description:
-				"A project built for NBA fans who want to create their own NBA playoff bracket predictions and easily share them with others.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com/dchung1940/NBA_Bracket_2023",
-		},
-
-		{
 			title: "Prospectus",
 			description:
 				"A project designed to help students from University of Illinois plan their courses. It features an interactive prerequisite and post-requisite graph, course recommendations, a wishlist, and more.",
@@ -46,21 +37,30 @@ const INFO = {
 		},
 
 		{
-			title: "COVID-19 Application",
+			title: "Decoding Language from Non-Invasive Brain Recordings (US20250068841A1)",
 			description:
-			"A project created to support students at the University of Illinois Urbana-Champaign by providing supplementary information to guide them through the pandemic.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/r/r.png",
-			linkText: "View Project",
-			link: "https://github.com/dchung1940/covid19_app",
+				"A patent filed for a novel method of decoding non-invasive brain activity measurements, such as fMRI or fNIRS signals, into continuous natural language using a neural encoding model combined with a language prediction model.",
+			logo: "./uspto.png",
+			linkText: "View Patent",
+			link: "https://patents.google.com/patent/US20250068841A1/en?oq=18%2f723%2c803",
 		},
 
 		{
-			title: "Data Analysis using PPDAC cycle",
+			title: "Systems and methods for using telematics data in relation to a blockchain (US20240119533A1)",
 			description:
-				"A brief data analysis following the PPDAC cycle (Problem, Plan, Data, Analysis, Conclusion) on datasets from Champaign County theater attendance, Chicago food vendors, and COVID-19 statistics.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/r/r.png",
-			linkText: "View Project",
-			link: "https://github.com/dchung1940/data_analysis",
+			"A patent filed for a novel method of generating and deploying blockchain-based smart contracts that automatically execute based on detected activation of vehicle safety features derived from analyzed vehicle information.",
+			logo: "./uspto.png",
+			linkText: "View Patent",
+			link: "https://patents.google.com/patent/US20240119533A1/en?oq=US-2024-0119533-A1+",
+		},
+
+		{
+			title: "Secret shared database joins using sorting (US20250200048A1)",
+			description:
+				"A patent filed for a novel method of performing a secure database join that enables secret sharing between a table with a unique matching column and another table with a non-unique matching column containing repeated values.",
+			logo: "./uspto.png",
+			linkText: "View Patent",
+			link: "https://patents.google.com/patent/US20250200048A1/en?oq=20250200048",
 		},
 
 		{
@@ -68,16 +68,16 @@ const INFO = {
 			description:
 				"A patent filed for a novel method of performing oblivious transfer, utilizing Public Key Encryption and Diffie-Hellman key exchange.",
 			logo: "./uspto.png",
-			linkText: "View Project",
-			link: "https://patentimages.storage.googleapis.com/bd/b4/62/9960560521fa1c/US11601407.pdf",
+			linkText: "View Patent",
+			link: "https://patents.google.com/patent/US11601407B2/en?oq=11%2c601%2c407",
 		},
 		{
 			title: "User Verification with Digital Tag (WO2022251337A1)",
 			description:
 				"A patent filed for a novel method of using a digital tag to facilitate payment transactions across different payment applications.",
 			logo: "./uspto.png",
-			linkText: "View Project",
-			link: "https://patentimages.storage.googleapis.com/37/85/84/637ab14c592e21/WO2022251337A1.pdf",
+			linkText: "View Patent",
+			link: "https://patents.google.com/patent/WO2022251337A1/en?oq=2022%2f251337",
 		}
 	],
 };
