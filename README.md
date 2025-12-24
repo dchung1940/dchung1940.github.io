@@ -1,1 +1,9 @@
 # React Portfolio 
+
+## For storing in Github
+git add -A 
+git commit -m ""
+git push 
+
+## For publishing
+npm run deploy
