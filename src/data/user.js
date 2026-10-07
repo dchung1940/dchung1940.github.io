@@ -17,7 +17,7 @@ const INFO = {
 	homepage: {
 		title: "HI, I'M DANIEL CHUNG",
 		description:
-			"I am a 1L student at Emory University School of Law, a Patent Engineer, and a Software Engineer. I have an expertise in patent prosecution including drafting patent applications (e.g., provisional, non-provisional, continuation, divisional, etc.), conducting interviews with patent examiners, and many others. Some of the patents I helped draft are attached to this site. Additionally, I have expertise in frontend (e.g., React, Javascript, etc.), backend (e.g., NodeJS, Python, C++, etc.), and working with data using data programming languages (e.g., R and SQL). Some of the projects using these languages can be seen on this site and in my Github. I enjoy solving complex problems and learning new skills. I am always looking for new challenges and opportunities to grow.",
+			"I am a 2L student at Emory University School of Law, a Patent Engineer, and a Software Engineer. I have an expertise in patent prosecution including drafting patent applications (e.g., provisional, non-provisional, continuation, divisional, etc.), conducting interviews with patent examiners, and many others. Some of the patents I helped draft are attached to this site. Additionally, I have expertise in frontend (e.g., React, Javascript, etc.), backend (e.g., NodeJS, Python, C++, etc.), and working with data using data programming languages (e.g., R and SQL). Some of the projects using these languages can be seen on this site and in my Github. I enjoy solving complex problems and learning new skills. I am always looking for new challenges and opportunities to grow.",
 	},
 
 	articles: {
@@ -27,6 +27,15 @@ const INFO = {
 	},
 
 	projects: [
+
+		{
+			title: "The Supreme Court’s Decision in 'Hikma v. Amarin' and What it May Mean for Patent Enforcement Strategy",
+			description:
+				"An article analyzing the Supreme Court’s decision in Hikma v. Amarin, which clarifies the requirements for induced patent infringement and explores its implications for patent enforcement strategies across industries.",
+			logo: "/law.jpeg",
+			linkText: "View Article",
+			link: "https://www.law.com/newyorklawjournal/2026/07/07/the-supreme-courts-decision-in-hikma-v-amarin-and-what-it-may-mean-for-patent-enforcement-strategy/",
+		},
 		{
 			title: "Prospectus",
 			description:
@@ -63,14 +72,14 @@ const INFO = {
 			link: "https://patents.google.com/patent/US20250200048A1/en?oq=20250200048",
 		},
 
-		{
-			title: "Fast Oblivious Transfers (US11601407B2)",
-			description:
-				"A patent filed for a novel method of performing oblivious transfer, utilizing Public Key Encryption and Diffie-Hellman key exchange.",
-			logo: "./uspto.png",
-			linkText: "View Patent",
-			link: "https://patents.google.com/patent/US11601407B2/en?oq=11%2c601%2c407",
-		},
+		// {
+		// 	title: "Fast Oblivious Transfers (US11601407B2)",
+		// 	description:
+		// 		"A patent filed for a novel method of performing oblivious transfer, utilizing Public Key Encryption and Diffie-Hellman key exchange.",
+		// 	logo: "./uspto.png",
+		// 	linkText: "View Patent",
+		// 	link: "https://patents.google.com/patent/US11601407B2/en?oq=11%2c601%2c407",
+		// },
 		{
 			title: "User Verification with Digital Tag (WO2022251337A1)",
 			description:
